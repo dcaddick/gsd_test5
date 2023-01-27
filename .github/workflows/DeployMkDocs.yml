@@ -37,7 +37,7 @@ jobs:
         uses: athackst/mkdocs-simple-plugin@v2.2.0
         with:
         #   # (optional) Specify branch 
-        #   publish_branch: main # gh-pages 
+          publish_branch: gh-pages 
           # (optional) The URL of the repository the docs should point to
           repo_url: https://github.com/dcaddick/gsd_test5
           # (optional) The URL of the site
@@ -52,9 +52,9 @@ jobs:
           config: "mkdocs.yml"
         #   # (optional) Version or alias.  Specify multiple aliases with space
         #   # example: version: v0.1.0 latest
-        #   version: latest
+          version: latest
         #   # (optional) The version that will be served by the root of your site
-        #   default_version: latest
+          default_version: latest
         #   # (optional) Whether to push the docs to the remote branch
-        #   # push: 1
+          push: 1
 
